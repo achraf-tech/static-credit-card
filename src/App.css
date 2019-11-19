@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.credit-card {
+  margin: auto;
+  position: absolute;
+  width: 600px;
+  height: 378px;
+  border-radius: 24px;
+  background-color: #3498db;
+  color: #fff;
+  padding-left: 40px;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.name, .card-number, .first-four-digits, .expiration {
+  font-family: "Courier", monospace;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.name {
+  bottom: 40px;
+  font-size: 16px;
+}
+
+.card-number {
+  bottom: 160px;
+  font-size: 36px;
+  margin-bottom: -4%
+}
+.bank-name {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 30px;
+}
+.puce {
+  height: 80px;
+  width: 120px;
+  margin-right: 150%;
+  margin-top: 20%
+}
+.expiration {
+  font-size: 36px;
+  left: 240px;
+  bottom: 70px;
+}
+
+.valid-thru {
+  width: 30px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.master{
+  height: 100px;
+  width: 160px;
+  margin-left: 75%
+}
+.date{
+  font-size: 30px;
+  margin-left: 23px;
+}
+.achraf {
+    font-size: 14px;
+    margin-left: 103px;
+
+}
+.baya{
+  margin-left: 30px ; 
+  margin-top: 20px ; 
+  
+}
+h2{
+  margin-top: 40px;
+
+
+}
